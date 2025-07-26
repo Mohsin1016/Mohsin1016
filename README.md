@@ -136,77 +136,74 @@
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">Blogpost Website</h3>
+        <h3 align="center">B2R Thunder Road</h3>
         <div align="center">  
-          <a href="https://github.com/Mohsin1016" target="_blank">
-            <img src="https://via.placeholder.com/500x300?text=Blog+Website+Screenshot" width="100%" alt="Blog Website" />
+          <a href="https://thunderroad.b2rpartners.com/dashboard" target="_blank">
+            <img src="https://via.placeholder.com/500x300?text=B2R+Thunder+Road" width="100%" alt="B2R Thunder Road" />
           </a>
           <br><br>
           <p>
             <a href="https://github.com/Mohsin1016" target="_blank">
               <img src="https://img.shields.io/badge/Code-4A90E2?style=for-the-badge&logo=github&logoColor=white" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://thunderroad.b2rpartners.com/dashboard" target="_blank">
               <img src="https://img.shields.io/badge/Live-6A5ACD?style=for-the-badge&logo=vercel&logoColor=white" />
             </a>
           </p>
-          <p><strong>JavaScript, HTML/CSS</strong> - A modern blogging platform with responsive design and user-friendly interface.</p>
+          <p><strong>Next.js, Django, PostgreSQL, OutLook, Composio, Attio, Clay, Reply.io</strong> - A custom-built B2B outreach automation platform that integrates tools like Clay, Attio, Reply.io, and Harmonic.ai to automate lead generation and messaging. Features Chrome extension for data scraping, CRM auto-sync, and OpenAI (GPT-4) for personalized messaging.</p>
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">Shopping Cart</h3>
+        <h3 align="center">Dream Guest</h3>
         <div align="center">  
-          <a href="https://github.com/Mohsin1016" target="_blank">
-            <img src="https://via.placeholder.com/500x300?text=Shopping+Cart+Screenshot" width="100%" alt="Shopping Cart" />
+          <a href="https://app.dreamguest.com/" target="_blank">
+            <img src="https://via.placeholder.com/500x300?text=Dream+Guest" width="100%" alt="Dream Guest" />
           </a>
           <br><br>
           <p>
             <a href="https://github.com/Mohsin1016" target="_blank">
               <img src="https://img.shields.io/badge/Code-4A90E2?style=for-the-badge&logo=github&logoColor=white" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://app.dreamguest.com/" target="_blank">
               <img src="https://img.shields.io/badge/Live-6A5ACD?style=for-the-badge&logo=vercel&logoColor=white" />
             </a>
           </p>
-          <p><strong>Node.js, MongoDB, Tailwind</strong> - E-commerce platform with shopping cart functionality and payment integration.</p>
+          <p><strong>React, Node.js, Express, MySQL, Signwell, Credit Score Data API</strong> - A guest management and reward platform supporting three roles: super admin, host, and guest. Hosts can manage subscriptions, buy credits, send gifts, run background checks, and send digital agreements via Signwell.</p>
         </div>
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <h3 align="center">Flutter Mobile App</h3>
+        <h3 align="center">AI-Guard</h3>
         <div align="center">  
           <a href="https://github.com/Mohsin1016" target="_blank">
-            <img src="https://via.placeholder.com/500x300?text=Flutter+App+Screenshot" width="100%" alt="Flutter App" />
+            <img src="https://via.placeholder.com/500x300?text=AI-Guard" width="100%" alt="AI-Guard" />
           </a>
           <br><br>
           <p>
             <a href="https://github.com/Mohsin1016" target="_blank">
               <img src="https://img.shields.io/badge/Code-4A90E2?style=for-the-badge&logo=github&logoColor=white" />
             </a>
-            <a href="#" target="_blank">
-              <img src="https://img.shields.io/badge/Download-6A5ACD?style=for-the-badge&logo=googleplay&logoColor=white" />
-            </a>
           </p>
-          <p><strong>Flutter, Firebase</strong> - Workout planner and tracker for mobile with cloud synchronization.</p>
+          <p><strong>Django, OpenAI, Retel AI</strong> - A community gate software using AI to interact with visitors, verify addresses, and manage access control. The system contacts residence owners for confirmation and escalates issues to humans when necessary, built with Retel AI, Django, and ChatGPT model 4.0.</p>
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">See All Projects</h3>
+        <h3 align="center">Trade Tab</h3>
         <div align="center">
-          <a href="https://portfolio1-olive-seven.vercel.app/Projects" target="_blank">
-            <img src="https://via.placeholder.com/500x300?text=Portfolio+Website" width="100%" alt="Portfolio" />
+          <a href="https://tradetab.com/" target="_blank">
+            <img src="https://via.placeholder.com/500x300?text=Trade+Tab" width="100%" alt="Trade Tab" />
           </a>
           <br><br>
           <p>
-            <a href="https://portfolio1-olive-seven.vercel.app/Projects" target="_blank">
-              <img src="https://img.shields.io/badge/Portfolio-4A90E2?style=for-the-badge&logo=vercel&logoColor=white" />
+            <a href="https://github.com/Mohsin1016" target="_blank">
+              <img src="https://img.shields.io/badge/Code-4A90E2?style=for-the-badge&logo=github&logoColor=white" />
             </a>
-            <a href="https://github.com/Mohsin1016?tab=repositories" target="_blank">
-              <img src="https://img.shields.io/badge/Repositories-6A5ACD?style=for-the-badge&logo=github&logoColor=white" />
+            <a href="https://tradetab.com/" target="_blank">
+              <img src="https://img.shields.io/badge/Live-6A5ACD?style=for-the-badge&logo=vercel&logoColor=white" />
             </a>
           </p>
-          <p>Explore my complete portfolio to see all projects and my professional journey.</p>
+          <p><strong>MERN Stack</strong> - A free online trading journal and analytics platform that automatically syncs with trading accounts (like MT4/MT5), logs trades, tracks emotions, and provides detailed metrics such as profit/loss, win rate, and average trade duration.</p>
         </div>
       </td>
     </tr>
