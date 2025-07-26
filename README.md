@@ -8,10 +8,10 @@
   <a href="https://portfolio1-olive-seven.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-4361EE?style=for-the-badge&logo=Vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:muhammadmohsin1016@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/your-linkedin">
+  <a href="https://www.linkedin.com/in/mohsin1016">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Mohsin1016">
