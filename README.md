@@ -19,85 +19,116 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Mohsin1016-Full%20Stack%20Developer-blueviolet?style=for-the-badge&logo=github" alt="Profile Banner">
 </p>
 
-<h1 align="center">Hi 👋, I'm Mohsin Khalid</h1>
-<h3 align="center">A passionate Full-Stack Developer | Django | Flutter | JavaScript</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hi+there%2C+I'm+Mohsin+Khalid;Full-Stack+Developer;Django+%7C+Flutter+%7C+React" alt="Typing SVG" />
+  
+  <p>Building robust web and mobile solutions with modern technologies</p>
+  
+  <div>
+    <a href="https://portfolio1-olive-seven.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-555555?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="mailto:your.email@example.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/Mohsin1016" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </div>
+</div>
 
-<p align="center">
-  <a href="https://portfolio1-olive-seven.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Now-blueviolet?style=for-the-badge&logo=vercel" alt="Portfolio Badge"/>
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-critical?style=for-the-badge&logo=gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20me-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
-</p>
+## 👨‍💻 About Me
 
----
-
-### 👨‍💻 About Me
-- 🔭 I’m currently working on **Full Stack Projects**
-- 🌱 I’m learning **Advanced Django, Docker & DevOps**
-- 💬 Ask me about **Django, Flutter, React, PostgreSQL**
-- 🌐 Portfolio: [portfolio1-olive-seven.vercel.app](https://portfolio1-olive-seven.vercel.app/)
+- 🔭 Full-Stack Developer passionate about creating seamless user experiences
+- 🚀 Currently focused on building scalable web applications and mobile solutions
+- 🌱 Learning **Advanced Django, Docker & DevOps**
+- 💡 Interested in clean architecture, performance optimization, and responsive design
 - 📫 Reach me at: **your.email@example.com**
 
----
+## 🛠️ Technology Stack
 
-### 🛠 Tech Stack
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top" width="33%">
+        <h3>Frontend</h3>
+        <div align="center">
+          <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" alt="Frontend Technologies" />
+        </div>
+      </td>
+      <td valign="top" width="33%">
+        <h3>Backend</h3>
+        <div align="center">
+          <img src="https://skillicons.dev/icons?i=django,nodejs,flask,python" alt="Backend Technologies" />
+        </div>
+      </td>
+      <td valign="top" width="33%">
+        <h3>Tools & Others</h3>
+        <div align="center">
+          <img src="https://skillicons.dev/icons?i=git,docker,postgres,mysql,firebase,flutter" alt="Tools & Technologies" />
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-#### **Frontend**
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+## 📊 GitHub Stats
 
-#### **Backend**
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohsin1016&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180em" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohsin1016&theme=tokyonight&hide_border=true" height="180em" />
+</div>
 
-#### **Mobile**
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+## 🏆 Featured Projects
 
-#### **Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohsin1016&repo=project-name-1&theme=tokyonight&hide_border=true" height="120em" />
+  </a>
+  <a href="#" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mohsin1016&repo=project-name-2&theme=tokyonight&hide_border=true" height="120em" />
+  </a>
+</div>
 
-#### **Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<details>
+  <summary><b>🔍 More Projects</b></summary>
+  <br/>
+  
+  ### Web Applications
+  - **Blogpost Website** - JavaScript | Responsive Design
+  - **Shopping Cart** - Node.js | MongoDB | Tailwind
+  
+  ### Mobile Development
+  - **Flutter Mobile App** - Workout planner | Firebase
+</details>
 
----
+## 💼 Professional Experience
 
-### 🚀 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mohsin1016&show_icons=true&theme=radical" alt="GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohsin1016&theme=radical" alt="GitHub streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohsin1016&layout=compact&theme=radical" alt="Top Languages"/>
-</p>
+<details>
+  <summary><b>View My Work History</b></summary>
+  <br/>
+  
+  - **Full Stack Developer** | Company Name | 20XX - Present
+    - Developed and maintained web applications using Django and React
+    - Implemented responsive UI designs and improved user experience
+  
+  - **Mobile App Developer** | Company Name | 20XX - 20XX
+    - Created cross-platform mobile applications using Flutter
+    - Integrated backend services and APIs
+</details>
 
----
+## 📝 Latest Blog Posts
 
-### 📌 Featured Projects
-- [**Blogpost Website**](#) – JavaScript | Responsive Design
-- [**Shopping Cart**](#) – Node.js | MongoDB | Tailwind
-- [**Flutter Mobile App**](#) – Workout planner | Firebase
-
----
-
-### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - Coming soon...
 <!-- BLOG-POST-LIST:END -->
 
----
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Mohsin1016&color=6C63FF&style=flat-square" alt="Profile views" />
 
-<p align="center">
-  <i>⚡ "Code is like humor. When you have to explain it, it’s bad." ⚡</i>
-</p>
+  <p><i>⚡ "Clean code always looks like it was written by someone who cares." ⚡</i></p>
+</div>
 
