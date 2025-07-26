@@ -118,6 +118,16 @@
       <br>Git
     </td>
   </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="65" height="65" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud" width="65" height="65" />
+      <br>Google Cloud
+    </td>
+  </tr>
 </table>
 
 
