@@ -20,7 +20,7 @@
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&lines=Django+%7C+Flutter+%7C+React+%7C+JavaScript;Building+scalable+web+and+mobile+solutions" alt="Tech Stack" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=650&lines=Django+%7C+Flutter+%7C+React+%7C+JavaScript;Building+scalable+web+and+mobile+solutions" alt="Tech Stack" />
 </div>
 
 <p align="center">
