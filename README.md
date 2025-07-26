@@ -40,30 +40,47 @@
 ## 🛠️ Skills & Technologies
 
 <div align="center">
-  <h3>Programming Languages & Frameworks</h3>
+  <h3>Frontend Technologies</h3>
   <p>
-    <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60" />
-    <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" />
-    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="Webpack" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="Sass" width="65" height="65" />&nbsp;
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=nextjs,html,css,tailwind&theme=light" height="65" />
   </p>
   
-  <h3>Databases & DevOps</h3>
+  <h3>Backend Technologies</h3>
   <p>
-    <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="60" height="60" />
-    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" />
-    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/nodejs-icon.svg" alt="Node.js" width="65" height="65" />&nbsp;
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=flask,express&theme=light" height="65" />
   </p>
   
-  <h3>Frontend Tools</h3>
+  <h3>Mobile & Databases</h3>
   <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/firebase-icon.svg" alt="Firebase" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="65" height="65" />&nbsp;
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=flutter,postgres,mongodb&theme=light" height="65" />
+  </p>
+  
+  <h3>DevOps & Tools</h3>
+  <p>
+    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />&nbsp;
+    <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />&nbsp;
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=git,vscode,figma&theme=light" height="65" />
   </p>
 </div>
 
