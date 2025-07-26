@@ -40,97 +40,31 @@
 ## 🛠️ Skills & Technologies
 
 <div align="center">
-  <!-- Frontend -->
-  <h3>Frontend Technologies</h3>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px">
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">React</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">JavaScript</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">HTML5</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">CSS3</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Tailwind</p>
-    </div>
-  </div>
-
-  <!-- Backend -->
-  <h3>Backend Technologies</h3>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px">
-    <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Python</p>
-    </div>
-    <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Django</p>
-    </div>
-    <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Node.js</p>
-    </div>
-  </div>
-
-  <!-- Mobile & Databases -->
-  <div style="display: flex; justify-content: center; gap: 30px; margin-bottom: 20px">
-    <!-- Mobile -->
-    <div>
-      <h3>Mobile Development</h3>
-      <div style="display: flex; justify-content: center; gap: 20px;">
-        <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="65" height="65" />
-          <p style="font-weight: 600; margin-top: 8px;">Flutter</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Databases -->
-    <div>
-      <h3>Databases</h3>
-      <div style="display: flex; justify-content: center; gap: 20px;">
-        <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-          <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-          <p style="font-weight: 600; margin-top: 8px;">MySQL</p>
-        </div>
-        <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="65" height="65" />
-          <p style="font-weight: 600; margin-top: 8px;">PostgreSQL</p>
-        </div>
-        <div style="background: rgba(106, 90, 205, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="65" height="65" />
-          <p style="font-weight: 600; margin-top: 8px;">Firebase</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tools -->
-  <h3>DevOps & Tools</h3>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px">
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Docker</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">GitHub</p>
-    </div>
-    <div style="background: rgba(74, 144, 226, 0.1); border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="65" height="65" />
-      <p style="font-weight: 600; margin-top: 8px;">Git</p>
-    </div>
-  </div>
+  <h3>Programming Languages & Frameworks</h3>
+  <p>
+    <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="60" height="60" />
+  </p>
+  
+  <h3>Databases & DevOps</h3>
+  <p>
+    <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" />
+    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60" />
+  </p>
+  
+  <h3>Frontend Tools</h3>
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" width="60" height="60" />
+  </p>
 </div>
 
 ## GitHub Analytics
