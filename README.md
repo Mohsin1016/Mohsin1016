@@ -38,7 +38,7 @@ I'm a dedicated Full Stack Developer specializing in creating efficient web and 
 - 🔭 Working on scalable full-stack applications
 - 🌱 Expanding expertise in **Advanced Django, Docker & DevOps**
 - 💡 Passionate about clean architecture and performant code
-- 📫 Contact: **your.email@example.com**
+- 📫 Contact: **muhammadmohsin1016@gmail.com**
 
 ## Skills & Technologies
 
