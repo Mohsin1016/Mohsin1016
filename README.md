@@ -5,9 +5,9 @@
 </div>
 
 <!-- Banner -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Mohsin%20Khalid&fontSize=50&fontAlignY=40&desc=Full-Stack%20Developer&descSize=22&descAlignY=60" width="100%" alt="Header" />
-</div>
+</div> -->
 
 <h3 align="center">
   Django | Flutter | React | JavaScript
