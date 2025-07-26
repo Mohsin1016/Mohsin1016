@@ -37,7 +37,7 @@
 - 🌟 Committed to writing high-quality, maintainable code
 - 📫 Contact: **muhammadmohsin1016@gmail.com**
 
-## 🛠️ Skills & Technologies
+## Skills & Technologies
 
 <table align="center">
   <tr>
@@ -212,64 +212,6 @@
     </tr>
   </table>
 </div>
-
-## Professional Experience
-
-<details open>
-  <summary><b>Work History</b></summary>
-  <br>
-  <div align="center">
-    <table>
-      <tr>
-        <td>
-          <strong>Full Stack Developer</strong><br>
-          <i>Company Name | 20XX - Present</i>
-          <ul>
-            <li>Developed and maintained web applications using Django and React</li>
-            <li>Implemented responsive UI designs and improved user experience</li>
-            <li>Collaborated with cross-functional teams to deliver high-quality software</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Mobile App Developer</strong><br>
-          <i>Company Name | 20XX - 20XX</i>
-          <ul>
-            <li>Created cross-platform mobile applications using Flutter</li>
-            <li>Integrated backend services and APIs</li>
-            <li>Implemented CI/CD pipelines for automated testing and deployment</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-</details>
-
-## Education & Certifications
-
-<details>
-  <summary><b>View Details</b></summary>
-  <br>
-  <div align="center">
-    <table>
-      <tr>
-        <td>
-          <strong>Bachelor's Degree in Computer Science</strong><br>
-          <i>University Name | 20XX - 20XX</i>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <strong>Certifications</strong><br>
-          • Advanced Django Web Development<br>
-          • Flutter Mobile App Development<br>
-          • AWS Cloud Practitioner
-        </td>
-      </tr>
-    </table>
-  </div>
-</details>
 
 ## Latest Blog Posts
 
