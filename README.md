@@ -39,86 +39,40 @@
 
 ## Skills & Technologies
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-      <br>JavaScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
-      <br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="Django" width="65" height="65" />
-      <br>Django
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" width="65" height="65" />
-      <br>Flutter
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="65" height="65" />
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="65" height="65" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" width="65" height="65" />
-      <br>Tailwind
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-      <br>GitHub
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" width="65" height="65" />
-      <br>Firebase
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="65" height="65" />
-      <br>Node.js
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-      <br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="65" height="65" />
-      <br>Next.js
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-      <br>AWS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" alt="Git" width="65" height="65" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="65" height="65" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud" width="65" height="65" />
-      <br>Google Cloud
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+### Frontend Development
+<img src="https://skillicons.dev/icons?i=react" alt="React" title="React" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=js" alt="JavaScript" title="JavaScript" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" title="TypeScript" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" title="Next.js" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS" width="50" height="50" />
+
+### Backend Development
+<img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=django" alt="Django" title="Django" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=express" alt="Express" title="Express" width="50" height="50" />
+
+### Mobile Development
+<img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" title="Flutter" width="50" height="50" />
+
+### Databases
+<img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="MongoDB" width="50" height="50" />
+
+### Cloud & DevOps
+<img src="https://skillicons.dev/icons?i=aws" alt="AWS" title="AWS" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud" title="Google Cloud" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" title="Firebase" width="50" height="50" />
+
+### Tools & Version Control
+<img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" width="50" height="50" />
+<img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub" width="50" height="50" />
+
+</div>
 
 
 ## GitHub Analytics
