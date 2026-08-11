@@ -1,0 +1,85 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>banner</title>
+<style>
+  :root {
+    --ground: #0B0F14;
+    --text: #E6EDF3;
+    --muted: #8B98A5;
+    --accent: #22D3EE;
+    --accent-dim: #0E7490;
+  }
+  body[data-theme="light"] {
+    --ground: #FFFFFF;
+    --text: #0B0F14;
+    --muted: #57606A;
+    --accent: #0891B2;
+    /* Darker than the dark-theme motif on purpose: a pale cyan disappears
+       against white, so the waveform needs a deep teal to stay legible. */
+    --accent-dim: #0E7490;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 2560px; height: 600px;
+    background: var(--ground);
+    font-family: 'Inter', -apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+    display: flex; align-items: center;
+    position: relative; overflow: hidden;
+  }
+  .glow {
+    position: absolute; right: -240px; top: 50%;
+    width: 1100px; height: 1100px; transform: translateY(-50%);
+    background: radial-gradient(circle, color-mix(in srgb, var(--accent) 16%, transparent) 0%, transparent 62%);
+    pointer-events: none;
+  }
+  .content { padding-left: 160px; position: relative; z-index: 2; }
+  h1 {
+    font-size: 132px; font-weight: 650; letter-spacing: -0.035em;
+    color: var(--text); line-height: 0.94;
+  }
+  .rule { width: 104px; height: 5px; background: var(--accent); margin: 40px 0 34px; }
+  .role { font-size: 44px; font-weight: 420; color: var(--muted); letter-spacing: -0.008em; }
+  .role b { color: var(--text); font-weight: 560; }
+  .wave {
+    position: absolute; right: 168px; top: 50%; transform: translateY(-50%);
+    display: flex; align-items: center; gap: 15px; height: 320px; z-index: 1;
+  }
+  .wave i { display: block; width: 7px; border-radius: 4px; background: var(--accent-dim); }
+  .grid {
+    position: absolute; inset: 0; z-index: 0; opacity: 0.5;
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--accent-dim) 13%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--accent-dim) 13%, transparent) 1px, transparent 1px);
+    background-size: 80px 80px;
+    mask-image: linear-gradient(to right, transparent 40%, black 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 40%, black 100%);
+  }
+</style>
+<body>
+  <div class="grid"></div>
+  <div class="glow"></div>
+  <div class="content">
+    <h1>Mohsin&nbsp;Khalid</h1>
+    <div class="rule"></div>
+    <div class="role"><b>Backend Engineer</b> &nbsp;—&nbsp; real-time, AI &amp; data systems</div>
+  </div>
+  <div class="wave" id="wave"></div>
+  <script>
+    // Light theme when ?theme=light is passed to the renderer.
+    if (location.search.includes('theme=light')) document.body.dataset.theme = 'light';
+
+    // Deterministic pseudo-waveform: fixed seed, no Math.random, so both
+    // renders and every future re-render produce an identical figure.
+    const bars = 34, wave = document.getElementById('wave');
+    for (let i = 0; i < bars; i++) {
+      const t = i / (bars - 1);
+      const h = 46
+        + 132 * Math.abs(Math.sin(i * 0.9))
+        + 86 * Math.abs(Math.sin(i * 0.31 + 1.1));
+      const el = document.createElement('i');
+      el.style.height = Math.round(Math.min(h, 300)) + 'px';
+      el.style.opacity = (0.22 + 0.62 * t).toFixed(3);
+      wave.appendChild(el);
+    }
+  </script>
+</body>
