@@ -1,0 +1,129 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>stats</title>
+<!--
+  Self-rendered stats panel. Deliberately NOT a third-party card:
+  github-readme-stats only counts public repos, which for this account is 23
+  mostly-old practice repos, and it has been observed returning
+  DEPLOYMENT_PAUSED. This panel is built from an authorship audit across all
+  109 repos with commits by Mohsin1016.
+
+  Chart decisions (dataviz skill):
+    - Form: horizontal bar. The job is magnitude comparison -> bar, one hue.
+    - Color: single fill #0891B2. Validated with scripts/validate_palette.js
+      in BOTH modes (lightness band, chroma floor, contrast vs surface: PASS).
+      The brand accent #22D3EE fails the dark lightness band (L 0.797 > 0.77),
+      so the fill snaps to the nearest passing step in the same hue.
+    - Single series, so no legend: the subtitle names what is plotted.
+    - Every bar is direct-labelled, so value and identity never depend on colour.
+    - Bars 22px (<=24px cap), 4px rounded data-end, square at the baseline.
+    - No hover layer: this renders to a PNG for a README, so the values are
+      labelled inline instead.
+-->
+<style>
+  :root {
+    --ground: #0B0F14;
+    --panel: #0B0F14;
+    --text: #E6EDF3;
+    --muted: #8B98A5;
+    --accent: #22D3EE;
+    --fill: #0891B2;
+    --hairline: #1C2431;
+    --track: #141B24;
+  }
+  body[data-theme="light"] {
+    --ground: #FFFFFF;
+    --panel: #FFFFFF;
+    --text: #0B0F14;
+    --muted: #57606A;
+    --accent: #0891B2;
+    --fill: #0891B2;
+    --hairline: #D8DEE4;
+    --track: #F0F3F6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 2400px; height: 880px;
+    background: var(--ground);
+    font-family: 'Inter', -apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+    padding: 96px 120px;
+    display: flex; flex-direction: column;
+  }
+  .eyebrow {
+    font-size: 26px; font-weight: 600; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  h2 {
+    font-size: 62px; font-weight: 640; letter-spacing: -0.022em;
+    color: var(--text); margin-top: 22px;
+  }
+  .sub { font-size: 32px; color: var(--muted); margin-top: 18px; letter-spacing: -0.005em; }
+  .chart { margin-top: 66px; display: flex; flex-direction: column; gap: 30px; }
+  .row { display: flex; align-items: center; gap: 40px; }
+  .name {
+    width: 400px; flex: none; text-align: right;
+    font-size: 34px; font-weight: 520; color: var(--text);
+  }
+  /* Hairline baseline: all bars grow from one axis. */
+  .plot {
+    flex: 1; position: relative; height: 22px;
+    border-left: 1px solid var(--hairline);
+    padding-left: 0;
+  }
+  .track {
+    position: absolute; inset: 0; background: var(--track);
+    border-radius: 0 4px 4px 0;
+  }
+  .bar {
+    position: absolute; left: 0; top: 0; height: 22px;
+    background: var(--fill);
+    border-radius: 0 4px 4px 0;
+  }
+  .val {
+    width: 230px; flex: none;
+    font-size: 32px; color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .val b { color: var(--text); font-weight: 600; }
+  .foot {
+    margin-top: auto; padding-top: 46px;
+    border-top: 1px solid var(--hairline);
+    font-size: 26px; color: var(--muted);
+  }
+</style>
+<body>
+  <div class="eyebrow">Language footprint</div>
+  <h2>Where the code actually lives</h2>
+  <div class="sub">104 repositories I have commits in, by the repository's primary language. Private org work included — a public-only card would miss almost all of it.</div>
+
+  <div class="chart" id="chart"></div>
+
+  <div class="foot">Snapshot &middot; August 2026 &middot; measured across 109 repositories with commits attributed to <b>@Mohsin1016</b>; 5 have no primary language detected.</div>
+
+  <script>
+    if (location.search.includes('theme=light')) document.body.dataset.theme = 'light';
+
+    // Counts from the authorship audit. "Other" is the folded tail:
+    // Shell 2, HTML 2, Jupyter Notebook 1, Dockerfile 1.
+    // Other sits last by convention even though it outranks Dart.
+    const DATA = [
+      { name: 'Python',     n: 35 },
+      { name: 'TypeScript', n: 33 },
+      { name: 'JavaScript', n: 23 },
+      { name: 'Dart',       n: 7  },
+      { name: 'Other',      n: 6  },
+    ];
+    const TOTAL = DATA.reduce((a, d) => a + d.n, 0);   // 104
+    const MAX = Math.max(...DATA.map(d => d.n));       // 35
+
+    document.getElementById('chart').innerHTML = DATA.map(d => `
+      <div class="row">
+        <div class="name">${d.name}</div>
+        <div class="plot">
+          <div class="track"></div>
+          <div class="bar" style="width:${(d.n / MAX * 100).toFixed(2)}%"></div>
+        </div>
+        <div class="val"><b>${d.n}</b> repos · ${(d.n / TOTAL * 100).toFixed(0)}%</div>
+      </div>`).join('');
+  </script>
+</body>
