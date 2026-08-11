@@ -137,10 +137,13 @@ Conversational visitor verification with automated security escalation, running 
 
 ### ▸ Stack
 
-**Backend** &nbsp; Python · Django · DRF · Node.js · Express · Celery · REST · WebSockets
-**Real-time & AI** &nbsp; OpenAI · Gemini · Deepgram · Retell AI · WebRTC · Twilio
-**Data** &nbsp; PostgreSQL · MySQL · MongoDB · BigQuery · Redis
-**Cloud & DevOps** &nbsp; AWS · Google Cloud · Docker · GitHub Actions · Vercel
+<!-- Explicit <br>: README files render with document semantics, where a single
+     newline collapses to a space, so these five lines would otherwise run
+     together into one paragraph. -->
+**Backend** &nbsp; Python · Django · DRF · Node.js · Express · Celery · REST · WebSockets<br>
+**Real-time & AI** &nbsp; OpenAI · Gemini · Deepgram · Retell AI · WebRTC · Twilio<br>
+**Data** &nbsp; PostgreSQL · MySQL · MongoDB · BigQuery · Redis<br>
+**Cloud & DevOps** &nbsp; AWS · Google Cloud · Docker · GitHub Actions · Vercel<br>
 **Frontend & Mobile** &nbsp; React · Next.js · TypeScript · Tailwind · Flutter
 
 ---

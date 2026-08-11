@@ -494,7 +494,11 @@ Append to `README.md`:
 - **Comfortable inheriting a codebase** — see the MomentIQ work above.
 ```
 
-Note on the stack block: the single newlines between the five lines are intentional. Markdown collapses them into one paragraph with soft breaks, which is the compact grouped look the spec calls for. Do not insert blank lines between them and do not convert them to a list.
+Note on the stack block: each of the five lines needs an explicit trailing `<br>`.
+
+This corrects an error in the first draft of this plan, which claimed soft newlines would produce the compact grouped look on their own. They do not. README files render with *document* semantics, where a single newline collapses to a space — verified against GitHub's own renderer via `POST /markdown` with `mode=markdown`, which emitted **zero** `<br>` elements and put all five lines inside one `<p>`. Without the explicit breaks the block runs together into a single paragraph.
+
+(`mode=gfm` does emit `<br>` for soft breaks, but that is comment/issue semantics, not how a README file is displayed — do not verify against that mode.)
 
 - [ ] **Step 3: Append the stats block**
 
